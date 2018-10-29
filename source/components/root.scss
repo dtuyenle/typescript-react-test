@@ -1,0 +1,23 @@
+// Fonts
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i');
+
+// Global styles
+$offwhite: #efefef;
+
+body {
+  background: $offwhite;
+  font-family: 'Open Sans';
+  font-size: 14px;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+// Component imports
+
+@import '../components/games/game-list';
+@import '../components/base/spinner/spinner';
+@import '../components/base/modal/modal';
+@import '../components/base/inputtext/inputtext';
